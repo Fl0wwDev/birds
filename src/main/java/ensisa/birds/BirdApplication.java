@@ -17,9 +17,10 @@ public class BirdApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(
-        BirdApplication.class.getResource("main-view.fxml"));
-        scene = new Scene(fxmlLoader.load(), 800, 600);
+    // resources are located under /birds/ensisa in src/main/resources
+    FXMLLoader fxmlLoader = new FXMLLoader(
+        BirdApplication.class.getResource("/birds/ensisa/main-view.fxml"));
+    scene = new Scene(fxmlLoader.load(), 800, 600);
         stage.setTitle("Des oiseaux");
         stage.setScene(scene);
         stage.show();
@@ -30,7 +31,7 @@ public class BirdApplication extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(BirdApplication.class.getResource(fxml + ".fxml"));
+    FXMLLoader fxmlLoader = new FXMLLoader(BirdApplication.class.getResource("/birds/ensisa/" + fxml + ".fxml"));
         return fxmlLoader.load();
     }
 
