@@ -17,10 +17,13 @@ public class BirdApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        FXMLLoader fxmlLoader = new FXMLLoader(
+        BirdApplication.class.getResource("main-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+        stage.setTitle("Des oiseaux");
         stage.setScene(scene);
         stage.show();
-    }
+    } 
 
     static void setRoot(String fxml) throws IOException {
         scene.setRoot(loadFXML(fxml));

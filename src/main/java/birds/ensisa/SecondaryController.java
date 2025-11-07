@@ -7,6 +7,6 @@ public class SecondaryController {
 
     @FXML
     private void switchToPrimary() throws IOException {
-        BirdApplication.setRoot("primary");
+        BirdApplication.setRoot("main-view");
     }
 }
