@@ -1,4 +1,5 @@
 /Users/mahe/Github/birds/src/main/java/module-info.java
+/Users/mahe/Github/birds/src/main/java/birds/ensisa/BirdApplication.java
 /Users/mahe/Github/birds/src/main/java/birds/ensisa/SecondaryController.java
-/Users/mahe/Github/birds/src/main/java/birds/ensisa/PrimaryController.java
-/Users/mahe/Github/birds/src/main/java/birds/ensisa/App.java
+/Users/mahe/Github/birds/src/main/java/ensisa/birds/model/BirdModel.java
+/Users/mahe/Github/birds/src/main/java/birds/ensisa/MainController.java
