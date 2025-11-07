@@ -1,4 +1,4 @@
-package ensisa.birds.model;
+package birds.ensisa.model;
 
 /**
  * Placeholder POJO for the package `ensisa.birds.model`.
